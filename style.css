@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+   background-color: rgb(231, 231, 245);
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction:column ;
+   justify-content: center;
+   align-items: center;
+
+}
+#two{
+    background-color: rgb(224, 243, 243);
+    width: 30vw;
+    height: 70vh;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border:ridge;
+
+}
+#three{
+    background-color: rgb(224, 243, 243);
+    width: 365px;;
+    height: 10vh;
+    margin-bottom:5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: ridge;
+}
+#four{
+    width:30vw;
+    height: 13vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+.photo{
+    width: 150px;
+    padding-left: 45px;
+
+    
+}
+.bar{
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.photos{
+    width: 20px;
+}
+.barr{
+    width: 305px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 8px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: none;
+    border:ridge;
+}
+.log{
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+}
+#png{
+    width: 95px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 4px;
+}
+#log{
+    color: azure;
+    background-color: rgb(32, 32, 200);
+    font-size: 17px;
+}
+#psw
+{
+    margin-left: 25px;
+    font-size: 15px;
+}
